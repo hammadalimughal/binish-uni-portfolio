@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Saman Arif | Website Developer </title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="images/me.jpg" />
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/fancybox.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/slick.css" /> -->
+    <!-- <link rel="stylesheet" type="text/css" href="css/slick-theme.css" /> -->
+    <link href="https://site-assets.fontawesome.com/releases/v6.0.0/css/all.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-9 col-12">
+                    <nav class="navbar navbar-expand-lg">
+                        <a class="navbar-brand" href="#">Profile</a>
+                        <button class="navbar-toggler nav-icon collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="line01"></span>
+                            <span class="line02"></span>
+                            <span class="line03"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item custom-nav-item">
+                                    <a class="nav-link custom-nav-link" href="index.html#home">Home</a>
+                                </li>
+                                <li class="nav-item custom-nav-item">
+                                    <a class="nav-link custom-nav-link" href="index.html#services">Services</a>
+                                </li>
+                                <li class="nav-item custom-nav-item">
+                                    <a class="nav-link custom-nav-link" href="projects.html">Project</a>
+                                </li>
+                                <li class="nav-item custom-nav-item">
+                                    <a class="nav-link custom-nav-link" href="javascript:;" type="button" data-bs-toggle="modal" data-bs-target="#contactModal">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+    </header>
+<main>
+    <section class="thankyou-sec">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-9 col-12">
+                    <div class="thankyou-content">
+                        <h1 class="title">Thank you for showing your interest, you will be contacted shortly.</h1>
+                        <h3 class="tag-line">You’re awesome! Seriously</h3>
+                        <a href="javascript:;" class="link-btn go-back mt-3">Go Back</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="footer-main">
+    <ul class="footer-links">
+        <li><a href="index.html#home">home</a></li>
+        <li><a href="index.html#services">services</a></li>
+        <li><a href="projects.html">projects</a></li>
+        <li><a href="javascript:;" type="button" data-bs-toggle="modal" data-bs-target="#contactModal">contact</a></li>
+    </ul>
+</footer>
+<div class="modal fade popup-contact" id="contactModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="contactModalLabel" aria-hidden="true">
+    <div class="modal-dialog popup-contact-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <button type="button" class="modal-close" data-bs-dismiss="modal" aria-label="Close"><i
+                    class="fa-solid fa-circle-xmark"></i></button>
+            <div class="contact-content">
+                <div class="row">
+                    <div class="col-md-6 col-12 panel">
+                        <div class="contact-info">
+                            <ul class="w-100">
+                                <li>
+                                    <h6 class="heading">Let's Talk</h6>
+                                    <a class="contact-link" href="tel:+92 335 1847876">+92 335 1847876</a>
+                                </li>
+                                <li>
+                                    <h6 class="heading">General Support</h6>
+                                    <a class="contact-link"
+                                        href="mailto:Samanarif505@gmail.com">Samanarif505@gmail.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12 panel">
+                        <div class="contact-form">
+                            <h5 class="tag-line">Get in Touch</h5>
+                            <h3 class="sec-heading my-3">Let’s Get Started with Your Project!</h3>
+                            <form name="saman-contact" method="POST" data-netlify="true">
+                                <div class="input-field"><input required name="name" type="text" placeholder="Name">
+                                </div>
+                                <div class="input-field"><input required name="email" type="email"
+                                        placeholder="Email Address"></div>
+                                <div class="input-field"><input required name="phone" type="text" placeholder="Phone">
+                                </div>
+                                <div class="input-field"><input required name="location" type="text"
+                                        placeholder="Location"></div>
+                                <div class="input-field"><textarea required name="message"
+                                        placeholder="Message"></textarea></div>
+                                
+                                <div class="input-field"><button class="link-btn">Submit</button></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!-- <script type="text/javascript" src="js/slick.js"></script> -->
+<script src="js/fancybox.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js"></script> -->
+<script src="js/owl.carousel.min.js"></script>
+<!-- <script src="js/typeEffect.js"></script> -->
+<script src="js/custom.js"></script>
+</script>
+</body>
+
+</html>
