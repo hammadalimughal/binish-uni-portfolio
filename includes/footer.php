@@ -19,12 +19,12 @@
                             <ul class="w-100">
                                 <li>
                                     <h6 class="heading">Let's Talk</h6>
-                                    <a class="contact-link" href="tel:+92 335 1847876">+92 335 1847876</a>
+                                    <a class="contact-link" href="tel:+91 311 0000000">+91 311 0000000</a>
                                 </li>
                                 <li>
                                     <h6 class="heading">General Support</h6>
                                     <a class="contact-link"
-                                        href="mailto:Samanarif505@gmail.com">Samanarif505@gmail.com</a>
+                                        href="mailto:abc@email.com">abc@email.com</a>
                                 </li>
                             </ul>
                         </div>
